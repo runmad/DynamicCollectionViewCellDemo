@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  DynamicCollectionViewCellTest
+//  DynamicCollectionViewCellDemo
 //
 //  Created by Rune Madsen on 4/10/17.
 //  Copyright © 2017 The App Boutique. All rights reserved.

@@ -7,21 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		908EEF0B1E9C602600011236 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908EEF0A1E9C602600011236 /* AppDelegate.swift */; };
-		908EEF0D1E9C602600011236 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908EEF0C1E9C602600011236 /* ViewController.swift */; };
-		908EEF121E9C602600011236 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 908EEF111E9C602600011236 /* Assets.xcassets */; };
-		908EEF151E9C602600011236 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 908EEF131E9C602600011236 /* LaunchScreen.storyboard */; };
-		908EEF1D1E9C60F100011236 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908EEF1C1E9C60F100011236 /* CollectionViewCell.swift */; };
+		9023504A1ED63F0000CBC0DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 902350441ED63F0000CBC0DB /* Assets.xcassets */; };
+		9023504B1ED63F0000CBC0DB /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 902350451ED63F0000CBC0DB /* Base.lproj */; };
+		9023504C1ED63F0000CBC0DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902350461ED63F0000CBC0DB /* AppDelegate.swift */; };
+		9023504D1ED63F0000CBC0DB /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902350471ED63F0000CBC0DB /* CollectionViewCell.swift */; };
+		9023504E1ED63F0000CBC0DB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 902350481ED63F0000CBC0DB /* Info.plist */; };
+		9023504F1ED63F0000CBC0DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902350491ED63F0000CBC0DB /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		908EEF071E9C602600011236 /* DynamicCollectionViewCellTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicCollectionViewCellTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		908EEF0A1E9C602600011236 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		908EEF0C1E9C602600011236 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		908EEF111E9C602600011236 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		908EEF141E9C602600011236 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		908EEF161E9C602600011236 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		908EEF1C1E9C60F100011236 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		902350441ED63F0000CBC0DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = DynamicCollectionViewCellDemo/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		902350451ED63F0000CBC0DB /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Base.lproj; path = DynamicCollectionViewCellDemo/Base.lproj; sourceTree = SOURCE_ROOT; };
+		902350461ED63F0000CBC0DB /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = DynamicCollectionViewCellDemo/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		902350471ED63F0000CBC0DB /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CollectionViewCell.swift; path = DynamicCollectionViewCellDemo/CollectionViewCell.swift; sourceTree = SOURCE_ROOT; };
+		902350481ED63F0000CBC0DB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = DynamicCollectionViewCellDemo/Info.plist; sourceTree = SOURCE_ROOT; };
+		902350491ED63F0000CBC0DB /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = DynamicCollectionViewCellDemo/ViewController.swift; sourceTree = SOURCE_ROOT; };
+		908EEF071E9C602600011236 /* DynamicCollectionViewCellDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicCollectionViewCellDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +39,7 @@
 		908EEEFE1E9C602600011236 = {
 			isa = PBXGroup;
 			children = (
-				908EEF091E9C602600011236 /* DynamicCollectionViewCellTest */,
+				908EEF091E9C602600011236 /* DynamicCollectionViewCellDemo */,
 				908EEF081E9C602600011236 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,30 +47,31 @@
 		908EEF081E9C602600011236 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				908EEF071E9C602600011236 /* DynamicCollectionViewCellTest.app */,
+				908EEF071E9C602600011236 /* DynamicCollectionViewCellDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		908EEF091E9C602600011236 /* DynamicCollectionViewCellTest */ = {
+		908EEF091E9C602600011236 /* DynamicCollectionViewCellDemo */ = {
 			isa = PBXGroup;
 			children = (
-				908EEF0A1E9C602600011236 /* AppDelegate.swift */,
-				908EEF0C1E9C602600011236 /* ViewController.swift */,
-				908EEF1C1E9C60F100011236 /* CollectionViewCell.swift */,
-				908EEF111E9C602600011236 /* Assets.xcassets */,
-				908EEF131E9C602600011236 /* LaunchScreen.storyboard */,
-				908EEF161E9C602600011236 /* Info.plist */,
+				902350441ED63F0000CBC0DB /* Assets.xcassets */,
+				902350451ED63F0000CBC0DB /* Base.lproj */,
+				902350461ED63F0000CBC0DB /* AppDelegate.swift */,
+				902350471ED63F0000CBC0DB /* CollectionViewCell.swift */,
+				902350481ED63F0000CBC0DB /* Info.plist */,
+				902350491ED63F0000CBC0DB /* ViewController.swift */,
 			);
+			name = DynamicCollectionViewCellDemo;
 			path = DynamicCollectionViewCellTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		908EEF061E9C602600011236 /* DynamicCollectionViewCellTest */ = {
+		908EEF061E9C602600011236 /* DynamicCollectionViewCellDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 908EEF191E9C602600011236 /* Build configuration list for PBXNativeTarget "DynamicCollectionViewCellTest" */;
+			buildConfigurationList = 908EEF191E9C602600011236 /* Build configuration list for PBXNativeTarget "DynamicCollectionViewCellDemo" */;
 			buildPhases = (
 				908EEF031E9C602600011236 /* Sources */,
 				908EEF041E9C602600011236 /* Frameworks */,
@@ -79,9 +81,9 @@
 			);
 			dependencies = (
 			);
-			name = DynamicCollectionViewCellTest;
+			name = DynamicCollectionViewCellDemo;
 			productName = DynamicCollectionViewCellTest;
-			productReference = 908EEF071E9C602600011236 /* DynamicCollectionViewCellTest.app */;
+			productReference = 908EEF071E9C602600011236 /* DynamicCollectionViewCellDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -92,15 +94,16 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
-				ORGANIZATIONNAME = "Developer Org";
+				ORGANIZATIONNAME = "The App Boutique";
 				TargetAttributes = {
 					908EEF061E9C602600011236 = {
 						CreatedOnToolsVersion = 8.3.1;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 908EEF021E9C602600011236 /* Build configuration list for PBXProject "DynamicCollectionViewCellTest" */;
+			buildConfigurationList = 908EEF021E9C602600011236 /* Build configuration list for PBXProject "DynamicCollectionViewCellDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -113,7 +116,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				908EEF061E9C602600011236 /* DynamicCollectionViewCellTest */,
+				908EEF061E9C602600011236 /* DynamicCollectionViewCellDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -123,8 +126,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				908EEF151E9C602600011236 /* LaunchScreen.storyboard in Resources */,
-				908EEF121E9C602600011236 /* Assets.xcassets in Resources */,
+				9023504B1ED63F0000CBC0DB /* Base.lproj in Resources */,
+				9023504A1ED63F0000CBC0DB /* Assets.xcassets in Resources */,
+				9023504E1ED63F0000CBC0DB /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,24 +139,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				908EEF0D1E9C602600011236 /* ViewController.swift in Sources */,
-				908EEF0B1E9C602600011236 /* AppDelegate.swift in Sources */,
-				908EEF1D1E9C60F100011236 /* CollectionViewCell.swift in Sources */,
+				9023504F1ED63F0000CBC0DB /* ViewController.swift in Sources */,
+				9023504D1ED63F0000CBC0DB /* CollectionViewCell.swift in Sources */,
+				9023504C1ED63F0000CBC0DB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		908EEF131E9C602600011236 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				908EEF141E9C602600011236 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		908EEF171E9C602600011236 /* Debug */ = {
@@ -252,10 +245,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = DynamicCollectionViewCellTest/Info.plist;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/DynamicCollectionViewCellDemo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.theappboutique.DynamicCollectionViewCellTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.theappboutique.DynamicCollectionViewCellDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -264,9 +259,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = DynamicCollectionViewCellTest/Info.plist;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/DynamicCollectionViewCellDemo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.theappboutique.DynamicCollectionViewCellTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.theappboutique.DynamicCollectionViewCellDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -275,7 +271,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		908EEF021E9C602600011236 /* Build configuration list for PBXProject "DynamicCollectionViewCellTest" */ = {
+		908EEF021E9C602600011236 /* Build configuration list for PBXProject "DynamicCollectionViewCellDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				908EEF171E9C602600011236 /* Debug */,
@@ -284,7 +280,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		908EEF191E9C602600011236 /* Build configuration list for PBXNativeTarget "DynamicCollectionViewCellTest" */ = {
+		908EEF191E9C602600011236 /* Build configuration list for PBXNativeTarget "DynamicCollectionViewCellDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				908EEF1A1E9C602600011236 /* Debug */,
